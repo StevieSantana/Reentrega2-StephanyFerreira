@@ -4,6 +4,9 @@ const ItemList = ({ listProduct }) => {
   console.log(listProduct);
 
   return (
+    <div style={{display:'flex', justifyContent:'space-around', flexWrap:'wrap', alignItems:'center', paddingTop: "70px"}}>
+      
+     
     <>
       {listProduct &&
         Array.isArray(listProduct) &&
@@ -11,6 +14,7 @@ const ItemList = ({ listProduct }) => {
           <Item key={product.id} product={product} />
         ))}
     </>
+    </div>
   );
 };
 

@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     img: "./img/cienciaFiccion/img_01.svg",
-    product: "La máquina del tiempo.",
+    name: "La máquina del tiempo.",
     autor: "Herbert George Wells",
     year: "1895",
     category: "Ciencia Ficción",
@@ -12,7 +12,7 @@ export const products = [
   {
     id: 2,
     img: "./img/cienciaFiccion/img_02.svg",
-    product: "En las montañas de la locura.",
+    name: "En las montañas de la locura.",
     autor: "H.P. Lovecraft",
     year: "1936",
     category: "Ciencia Ficción",

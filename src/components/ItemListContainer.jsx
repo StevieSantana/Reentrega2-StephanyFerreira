@@ -17,12 +17,14 @@ const ItemListContainer = ({ greeting }) => {
   }, []);
 
   return (
+    <div >
     <>
-      <h2 className="greet">{greeting}</h2>
+      <h3 className="greet" style={{ display:"flex", justifycontent:"center" }}>{greeting}</h3>
       {!loading ? <ItemList listProduct={listProduct} /> : <h4>Loading...</h4>}
       {/*       {<ItemList listProduct={listProduct} />}
        */}{" "}
     </>
+    </div>
   );
 };
 
